@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: backend-ensolvers
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/noteDb
+    username: root
+    password: admin
+  jpa:
+      hibernate:
+        ddl-auto: update
+        show-sql: true
+      database: mysql
